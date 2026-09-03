@@ -269,43 +269,7 @@ public class Step_definition7 extends base_class7 {
 	}
 	
 	
-  /* //7th scenario
-	
-	@Given("the user searched for a particular delivery order")
-	public void the_user_searched_for_a_particular_delivery_order() {
-	   
-		System.out.println("the user searched for a particular delivery order");
-	}
-
-	@When("the user clicks the dropdown and select view")
-	public void the_user_clicks_the_dropdown_and_select_view() {
-	    
-		explicitWaitVisible(od.getDropdown()).click(); 
-		explicitWaitVisible(od.getView()).click();
-		
-	}
-
-	@When("the user clicks Close")
-	public void the_user_clicks_close() {
-	   
-		explicitWaitVisible(od.getClose()).click();
-		
-	}
-
-	@When("the user select Remove")
-	public void the_user_select_remove() {
-	  
-		//button[contains(@class , 'btn-link')]
-		//a[@data-action='quickRemove']
-		
-	}
-
-	@Then("the Delivery Order should be removed")
-	public void the_delivery_order_should_be_removed() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-	*/
+ 
 
 }
 
