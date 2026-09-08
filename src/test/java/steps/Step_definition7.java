@@ -267,10 +267,6 @@ public class Step_definition7 extends base_class7 {
 		 
 		System.out.println("the user should see the delivery order number");
 	}
-	
-	
- 
-
 }
 
 

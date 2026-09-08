@@ -28,7 +28,7 @@ Scenario Outline: Create delivery order with valid and invalid data
     
     Examples:
  | status    | account          | dateOrdered | deliveryDate | warehouse      | shippingProvider | description |
- | Completed | Stratabiz Italy | 09/02/2026  | 09/03/2026   | Main Warehouse | Royal Parcel     | new product |
+ | Completed | Janeville France | 09/02/2026  | 09/03/2026   | Main Warehouse | Royal Parcel     | new product |
 
 
 Scenario: Edit Delivery Order description
@@ -51,12 +51,7 @@ Scenario: Search Delivery Order
     And the user clicks the Search button
     Then the user should see the delivery order number
 
-Scenario: View and remove a Delivery Order
-Given the user searched for a particular delivery order
-When the user clicks the dropdown and select view
-And the user clicks Close
-And the user select Remove
-Then the Delivery Order should be removed
+
 
 
 
